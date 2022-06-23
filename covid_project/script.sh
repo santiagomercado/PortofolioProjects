@@ -21,4 +21,5 @@ mysqlimport --ignore-lines=1 \
             "$DB" \
              'covid_vaccinations.csv' 'covid_deaths.csv'
 
-mysql --user="$USER" --password="$PASSWORD" --database="$DB" < "queries.sql"
+# Run the all the queries from queries.sql
+# mysql --user="$USER" --password="$PASSWORD" --database="$DB" < "queries.sql"
